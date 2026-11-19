@@ -1,0 +1,10 @@
+task,task_label,method,delta_mean,delta_std,n_eval_seeds
+ec_level1,EC,MLM-only 500k,0.0051531916693446,0.0020683690858876,5
+go_molecular_function,GO-MF,MLM-only 500k,0.0043573559943482,0.0063054423763961,5
+pfam_clan_remote_homology,Remote homology,MLM-only 500k,0.0131387598294808,0.0040162023700545,5
+ec_level1,EC,Contact 50k,0.0255111638170229,0.002188445259002,5
+ec_level1,EC,Contact 500k,0.035526916137846,0.001600840894306,5
+go_molecular_function,GO-MF,Contact 50k,0.0205102982170134,0.0025921541115893,5
+go_molecular_function,GO-MF,Contact 500k,0.0265459770289771,0.0060818642768938,5
+pfam_clan_remote_homology,Remote homology,Contact 50k,0.0842173671284106,0.0044905088028039,5
+pfam_clan_remote_homology,Remote homology,Contact 500k,0.1075592065222014,0.003553720897873,5

@@ -1,0 +1,11 @@
+task,task_label,task_group,metric,esm2_mean,lc_mean,delta,Our_n,replicate_unit
+EC level 1,EC,protein,macro-F1,0.883669,0.885186,0.0015169999999999,5,classifier seed
+Subcellular location,Subcellular,protein,macro-F1,0.759775,0.761797,0.0020219999999999,5,classifier seed
+Membrane binary,Membrane,protein,macro-F1,0.917088,0.917534,0.0004459999999999,5,classifier seed
+Strict membrane binary,Strict membrane,protein,macro-F1,0.976577,0.980743,0.004166,5,classifier seed
+GO molecular function,GO-MF,protein,micro-F1,0.709639,0.719465,0.009826,3,classifier seed
+Pfam family,Pfam family,protein,macro-F1,0.978692,0.98426,0.005568,5,classifier seed
+Remote homology (Pfam clan),Remote homology,protein,macro-F1,0.61224,0.676943,0.0647029999999999,5,classifier seed
+HOU subcellular level 3,HOU level 3,protein,micro-F1,0.531879,0.534068,0.0021889999999999,5,classifier seed
+ProteinGym mutation effect,ProteinGym,residue-level diagnostic,mean Spearman,0.410952,0.403334,-0.0076179999999999,93,assay (not classifier seed)
+UniProt PTM-site probes (average of 3 subtypes),PTM-site probes,residue/site,mean AUROC,0.777625,0.777483,-0.0001419999999999,5,PTM split seed

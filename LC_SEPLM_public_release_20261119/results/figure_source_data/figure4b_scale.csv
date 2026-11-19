@@ -1,0 +1,3 @@
+training_structures,label,validation_balanced_accuracy
+50000,Contact 50k,0.9204566580089426
+500000,Contact 500k,0.9459791206489778

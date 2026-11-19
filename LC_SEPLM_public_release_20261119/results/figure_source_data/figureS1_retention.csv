@@ -1,0 +1,22 @@
+protocol,task,task_label,eval_original,eval_kept,retained_fraction
+Exact accession,ec_level1,EC,1964,148,0.075356415478615
+Exact accession,subcellular_location,Subcellular,2477,416,0.16794509487283
+Exact accession,membrane_binary,Membrane,4000,414,0.1035
+Exact accession,strict_membrane_binary_seed23,Strict membrane,4000,442,0.1105
+Exact accession,go_molecular_function,GO-MF,6000,542,0.0903333333333333
+Exact accession,pfam_family,Pfam family,38062,2739,0.0719615364405443
+Exact accession,pfam_clan_remote_homology,Remote homology,20522,2248,0.1095409804112659
+40% identity,ec_level1,EC,1964,23,0.0117107942973523
+40% identity,subcellular_location,Subcellular,2477,103,0.0415825595478401
+40% identity,membrane_binary,Membrane,4000,165,0.04125
+40% identity,strict_membrane_binary_seed23,Strict membrane,4000,176,0.044
+40% identity,go_molecular_function,GO-MF,6000,131,0.0218333333333333
+40% identity,pfam_family,Pfam family,38062,378,0.0099311649414113
+40% identity,pfam_clan_remote_homology,Remote homology,20522,631,0.0307474904980021
+30% identity,ec_level1,EC,1964,18,0.0091649694501018
+30% identity,subcellular_location,Subcellular,2477,86,0.0347194186515946
+30% identity,membrane_binary,Membrane,4000,153,0.03825
+30% identity,strict_membrane_binary_seed23,Strict membrane,4000,153,0.03825
+30% identity,go_molecular_function,GO-MF,6000,113,0.0188333333333333
+30% identity,pfam_family,Pfam family,38062,283,0.0074352372444958
+30% identity,pfam_clan_remote_homology,Remote homology,20522,507,0.0247051944254945

@@ -1,0 +1,6 @@
+diagnostic,model,assays_evaluated,mean_spearman,positive_assays,status,reason,source
+ClinVar wt-marginals,ESM2_pretrained_esm2_t30_150M,1779,0.0,0,excluded from 10-task main table,"all 1,779 assay scores are exactly zero; no usable discriminative signal in archived output",not released
+ClinVar wt-marginals,ESM_S_150M,1779,0.0,0,excluded from 10-task main table,"all 1,779 assay scores are exactly zero; no usable discriminative signal in archived output",not released
+ClinVar wt-marginals,LRContact_XAttn_AF2_500k,1779,0.0,0,excluded from 10-task main table,"all 1,779 assay scores are exactly zero; no usable discriminative signal in archived output",not released
+ClinVar wt-marginals,LRContact_XAttn_AF2_500k_epoch2,1779,0.0,0,excluded from 10-task main table,"all 1,779 assay scores are exactly zero; no usable discriminative signal in archived output",not released
+ClinVar wt-marginals,LRContact_XAttn_AF2_500k_epoch3,1779,0.0,0,excluded from 10-task main table,"all 1,779 assay scores are exactly zero; no usable discriminative signal in archived output",not released
