@@ -14,7 +14,7 @@ Code and selected result artifacts for the manuscript *Long-range contact superv
 - `docs/` — environment recovery, provenance, data/software notices, and reproducibility limits.
 - `environment.graphgpu.observed.yml` — snapshot of the currently available Conda environment; it is not confirmed as an exact historical lockfile.
 
-## Method snapshot
+## Method snapshot 
 
 The reported model adapts ESM2 t30 150M with LoRA on query/value projections in layers 22–29, using long-range contact supervision and a masked-language-modeling objective. The manuscript reports epoch 10 of a 500,000-protein training run as the selected checkpoint. Configuration and summarized metrics are included, but the checkpoint itself is not.
 
@@ -44,7 +44,9 @@ The repository provides code and selected reported outputs for inspection. Exact
 ## Citation
 
 Please cite the associated LC-SEPLM manuscript. Add its final bibliographic details and this repository's permanent release identifier once assigned.
-
 ## License
 
-No license has been assigned to the original LC-SEPLM code in this release. Public availability does not itself grant permission to reuse, modify, or redistribute the code. A license must be approved and added by the authors before publication. Third-party software, data, and model weights remain under their respective terms.
+Original LC-SEPLM code and its documentation in this repository are released under the [MIT License](LICENSE). This permission does not extend to third-party software, datasets, pretrained model weights, or other materials subject to their own terms. See [`docs/DATA_AND_SOFTWARE_NOTICES.md`](docs/DATA_AND_SOFTWARE_NOTICES.md) before redistributing external or derived resources.
+
+## Contact
+For questions about this work, please contact the corresponding author, Qinghua Cui: [cuiqinghua@bjmu.edu.cn](mailto:cuiqinghua@bjmu.edu.cn).
