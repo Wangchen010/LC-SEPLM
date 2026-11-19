@@ -1,0 +1,72 @@
+{
+  "task": "lr_contact_xattn",
+  "model_name": "esm2_t30_150M_UR50D",
+  "lora_config": {
+    "rank": 4,
+    "alpha": 8.0,
+    "dropout": 0.05,
+    "targets": [
+      "q_proj",
+      "v_proj"
+    ],
+    "layers": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "lora_modules": [
+    "layers.22.self_attn.v_proj",
+    "layers.22.self_attn.q_proj",
+    "layers.23.self_attn.v_proj",
+    "layers.23.self_attn.q_proj",
+    "layers.24.self_attn.v_proj",
+    "layers.24.self_attn.q_proj",
+    "layers.25.self_attn.v_proj",
+    "layers.25.self_attn.q_proj",
+    "layers.26.self_attn.v_proj",
+    "layers.26.self_attn.q_proj",
+    "layers.27.self_attn.v_proj",
+    "layers.27.self_attn.q_proj",
+    "layers.28.self_attn.v_proj",
+    "layers.28.self_attn.q_proj",
+    "layers.29.self_attn.v_proj",
+    "layers.29.self_attn.q_proj"
+  ],
+  "pair_query_mode": "full",
+  "total_params": 154174078,
+  "trainable_params": 3979521,
+  "trainable_fraction": 0.025811868321988604,
+  "dataset_metadata": {
+    "dataset_kind": "long_range_contact_tar_manifest",
+    "contact_manifest": "internal project artifact not included",
+    "structure_tar": "third-party structure archive not included",
+    "target_scalers": {},
+    "train_size": 500000,
+    "val_size": 2000,
+    "test_size": 2000
+  },
+  "init_checkpoint": {
+    "path": "model checkpoint not included",
+    "epoch": 10,
+    "val_metrics": {
+      "total_loss": 1.1249260768890381,
+      "contact_accuracy": 0.9593330187847711,
+      "contact_balanced_accuracy": 0.961343256900959,
+      "contact_sensitivity": 0.9718759491626863,
+      "contact_specificity": 0.9508105646392319,
+      "contact_loss": 0.12078346061706544,
+      "contact_pairs": 1928690.0,
+      "contact_positive_fraction": 0.4045714967153871,
+      "mlm_accuracy": 0.4806827355552993,
+      "mlm_loss": 1.6735709533691405
+    },
+    "val_selection_score": 0.961343256900959
+  },
+  "epoch_offset": 10
+}

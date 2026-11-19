@@ -1,0 +1,14 @@
+{
+  "candidate": "tail8_mlm0p6_final10",
+  "selected_epoch": 10,
+  "source_checkpoint": "model checkpoint not included",
+  "best_downstream_checkpoint": "model checkpoint not included",
+  "selection_tasks": [
+    "EC level 1 validation",
+    "GO molecular function validation",
+    "ProteinGym development assays"
+  ],
+  "selection_policy": "positive task count, non-dominated status, worst per-task percentile rank, mean per-task percentile rank, then earlier epoch",
+  "metrics_csv": "internal project artifact not included",
+  "report": "internal project artifact not included"
+}

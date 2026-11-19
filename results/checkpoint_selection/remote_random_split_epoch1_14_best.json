@@ -1,0 +1,11 @@
+{
+  "epoch": 14.0,
+  "n_classifier_seeds": 5.0,
+  "ESM2_macro_F1_mean": 0.6122402145378106,
+  "ESM2_macro_F1_std": 0.003314941859616986,
+  "LC_SEPLM_macro_F1_mean": 0.677953781646399,
+  "LC_SEPLM_macro_F1_std": 0.004013353800544867,
+  "absolute_delta": 0.06571356710858833,
+  "percentage_point_gain": 6.571356710858833,
+  "relative_gain_percent": 10.73329806638012
+}

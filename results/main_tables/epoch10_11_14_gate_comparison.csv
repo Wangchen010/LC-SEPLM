@@ -1,0 +1,10 @@
+epoch,task,metric,baseline,candidate,delta,n,replicate_unit,split,source,positive_assays
+10,EC level 1,macro-F1,0.880223 ± 0.003125,0.899345 ± 0.004360,0.019121 ± 0.006731,3,gate seed,validation gate,internal project artifact not included,
+10,GO molecular function,micro-F1,0.706226 ± 0.006776,0.719465 ± 0.003628,0.013239 ± 0.007859,3,gate seed,validation gate,internal project artifact not included,
+10,ProteinGym mutation effect,mean Spearman,0.410952 ± 0.192679,0.403334 ± 0.189175,-0.007618 ± 0.018815,93,assay,93-assay development gate,internal project artifact not included,29/93
+11,EC level 1,macro-F1,0.880223 ± 0.003125,0.900968 ± 0.002538,0.020745 ± 0.004810,3,gate seed,validation gate,internal project artifact not included,
+11,GO molecular function,micro-F1,0.706226 ± 0.006776,0.718098 ± 0.001548,0.011872 ± 0.005850,3,gate seed,validation gate,internal project artifact not included,
+11,ProteinGym mutation effect,mean Spearman,0.410952 ± 0.192679,0.403428 ± 0.189212,-0.007524 ± 0.018943,93,assay,93-assay development gate,internal project artifact not included,30/93
+14,EC level 1,macro-F1,0.880223 ± 0.003125,0.897466 ± 0.002989,0.017242 ± 0.006095,3,gate seed,validation gate,internal project artifact not included,
+14,GO molecular function,micro-F1,0.706226 ± 0.006776,0.711415 ± 0.005481,0.005189 ± 0.007722,3,gate seed,validation gate,internal project artifact not included,
+14,ProteinGym mutation effect,mean Spearman,0.410952 ± 0.192679,0.402432 ± 0.189130,-0.008520 ± 0.018893,93,assay,93-assay development gate,internal project artifact not included,30/93
